@@ -11,6 +11,8 @@ try {
   }
 }
 
+const isProd = process.env.NODE_ENV === 'production'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -23,8 +25,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/emersonmeade' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/emersonmeade/' : '',
+  basePath: isProd ? '/emersonmeade' : '',
+  assetPrefix: isProd ? '/emersonmeade' : '',
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
