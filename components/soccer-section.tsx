@@ -36,11 +36,11 @@ export function SoccerSection() {
         style={{ scale }}
         whileHover={{ scale: 1.02 }}
       >
-        <Image src="/_DSC0390.JPEG" alt="Emerson playing soccer" fill className="object-cover" />
+        <Image src="/emersonmeade/_DSC0390.JPEG" alt="Emerson playing soccer" fill className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
 
         {/* Halftone overlay */}
-        <div className="absolute inset-0 bg-[url('/images/halftone-pattern.png')] bg-repeat opacity-20 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/emersonmeade/images/halftone-pattern.png')] bg-repeat opacity-20 mix-blend-overlay"></div>
 
         <div className="absolute bottom-0 left-0 right-0 p-6">
           <h3 className="text-2xl font-bold text-white mb-2">On The Field</h3>

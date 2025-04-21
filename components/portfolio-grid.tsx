@@ -71,7 +71,7 @@ export function PortfolioGrid({ items }: PortfolioGridProps) {
         >
           <div className="relative h-64 overflow-hidden">
             <Image
-              src={item.image || "/placeholder.svg"}
+              src={item.image ? `/emersonmeade${item.image}` : "/emersonmeade/placeholder.svg"}
               alt={item.title}
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -79,7 +79,7 @@ export function PortfolioGrid({ items }: PortfolioGridProps) {
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
 
             {/* Halftone overlay */}
-            <div className="absolute inset-0 bg-[url('/images/halftone-pattern.png')] bg-repeat opacity-20 mix-blend-overlay"></div>
+            <div className="absolute inset-0 bg-[url('/emersonmeade/images/halftone-pattern.png')] bg-repeat opacity-20 mix-blend-overlay"></div>
           </div>
 
           <div className="p-6 relative z-10">

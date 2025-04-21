@@ -17,7 +17,7 @@ export function Navigation() {
       setScrolled(window.scrollY > 50)
 
       // Determine active section based on scroll position
-      const sections = ["home", "programming", "audio", "content", "soccer", "contact"]
+      const sections = ["home", "programming", "content", "soccer", "contact"]
       const scrollPosition = window.scrollY + 100 // Offset to trigger slightly before reaching section
 
       for (let i = sections.length - 1; i >= 0; i--) {
@@ -35,7 +35,6 @@ export function Navigation() {
 
   const navItems = [
     { name: "Programming", href: "#programming" },
-    { name: "Audio", href: "#audio" },
     { name: "Content", href: "#content" },
     { name: "Soccer", href: "#soccer" },
     { name: "Contact", href: "#contact" },

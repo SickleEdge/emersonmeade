@@ -15,16 +15,16 @@ export function ContentShowcase() {
     {
       title: "TikTok",
       description: "Follow my journey through soccer, tech, and content creation",
-      image: "/tiktok-content.png",
-      icon: <Image src="/tiktok-icon.webp" alt="TikTok" width={32} height={32} className="text-teal-500" />,
+      image: "/emersonmeade/tiktok-content.png",
+      icon: <Image src="/emersonmeade/tiktok-icon.webp" alt="TikTok" width={32} height={32} className="text-teal-500" />,
       stats: "15.1K+ Followers",
       link: "https://tiktok.com/@theguyem"
     },
     {
       title: "Instagram",
       description: "Behind the scenes and daily life updates",
-      image: "/instagram.png",
-      icon: <Image src="/Instagram_icon.png" alt="Instagram" width={32} height={32} className="text-pink-500" />,
+      image: "/emersonmeade/instagram.png",
+      icon: <Image src="/emersonmeade/Instagram_icon.png" alt="Instagram" width={32} height={32} className="text-pink-500" />,
       stats: "1.4K+ Followers",
       link: "https://instagram.com/isthatemerson"
     }
@@ -94,7 +94,7 @@ export function ContentShowcase() {
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
 
               {/* Halftone overlay */}
-              <div className="absolute inset-0 bg-[url('/images/halftone-pattern.png')] bg-repeat opacity-20 mix-blend-overlay"></div>
+              <div className="absolute inset-0 bg-[url('/emersonmeade/images/halftone-pattern.png')] bg-repeat opacity-20 mix-blend-overlay"></div>
 
               <div className="absolute bottom-0 left-0 right-0 p-8">
                 <div className="flex items-center mb-4">
