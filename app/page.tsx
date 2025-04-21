@@ -239,7 +239,7 @@ export default function Home() {
               },
               {
                 title: "Drop Dudes",
-                description: "Popular Roblox game with over 100,000 visits",
+                description: "Popular Roblox game with over 3K visits",
                 image: "/drop-dudes.png",
                 link: "https://www.roblox.com/games/10107382971/DROP-DUDES-ICY-HEIGHTS",
                 target: "_blank"
